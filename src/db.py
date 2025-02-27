@@ -134,3 +134,4 @@ class DynamoDB_Client():
             return table.key_schema
         except botocore.errorfactory.ResourceNotFoundException:
             return "!!!! - The table doesn't exist... - !!!!"
+

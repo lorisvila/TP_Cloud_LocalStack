@@ -1,6 +1,5 @@
 import os
 
-
 class S3_Client():
 
     currentBucket = ""
